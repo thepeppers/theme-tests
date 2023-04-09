@@ -1,0 +1,70 @@
+.diferent-flavors {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.contain-flavor-section {
+    display: flex;
+    width: 100%;
+    margin-bottom: 53px;   
+}
+
+.one-two, .three-four {
+    display: flex;
+    width: 50%;
+}
+
+.one-two .yellow, .red {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.three-four .blue, .orange {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-flavors {
+    margin: 45px 0px 25px 0px;
+    height: 388px;
+    width: 90%;
+}
+
+.text-flavor {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.button-flavor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+    width: 275px;
+    background: #2E190F;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    transition: all .4s;
+}
+
+.button-flavor:hover {
+    background: #0e0805;
+}
