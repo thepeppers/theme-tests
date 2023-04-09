@@ -2,6 +2,15 @@
   "sections": {
     "tadah-colors": {
       "type": "tadah-colors",
+      "custom_css": [
+        ".tadah-colors {display: flex; width: 100%;}",
+        ".line-colors {display: flex; width: 100%;}",
+        ".yellow,.red,.blue,.orange {width: 25%; height: 12.5px;}",
+        ".yellow {background: #f7d633;}",
+        ".red {background: #e12843;}",
+        ".blue {background: #72cee8;}",
+        ".orange {background: #f47d34;}"
+      ],
       "settings": {
       }
     },
