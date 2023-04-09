@@ -1,0 +1,28 @@
+.beans {
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+}
+
+.text-and-img {
+    padding: 90px 126px 97px 104px;
+    background-image: url(imgs/Frame\ \(3\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text-fresh {
+    font-family: 'Montserrat';
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 51px;
+    color: #2E190F;
+    margin-bottom: 29px;
+}
+
+.bring-text {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
