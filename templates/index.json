@@ -16,6 +16,15 @@
     },
     "navigation-tadah": {
       "type": "navigation-tadah",
+      "custom_css": [
+        ".navigation-tadah, .beans-section {display: flex; width: 100%; justify-content: center;}",
+        ".main-div-nav {display: flex; justify-content: space-between; align-items: center; max-width: 1440px; width: 100%; padding: 25px 123px 30px 123px;}",
+        ".navigation {display: flex; align-items: center;}",
+        ".list {display: flex;}",
+        ".list li a {text-decoration: none; color: #2E190F; margin-right: 30px; font-family: 'Montserrat'; font-size: 18px; font-weight: 700; line-height: 22px;}",
+        ".list li {list-style: none;}",
+        ".shopping-cart {margin-left: 42px;}"
+      ],
       "settings": {
       }
     },
