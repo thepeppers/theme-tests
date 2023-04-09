@@ -1,0 +1,30 @@
+.short-text {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 26px;
+}
+
+.contain-short-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.big-text {
+    font-family: 'Montserrat';
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 51px;
+    text-align: center;
+    margin: 67px 0px 20px 0px;
+}
+
+.small-text {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    width: 666px;
+}
