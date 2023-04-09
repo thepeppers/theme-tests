@@ -55,3 +55,17 @@
 .text-hero .text .button:hover {
     background: #912233;
 }
+
+.taco-tadah {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    top: 56px;
+    max-height: 772px;
+}
+
+.spicy-tadah {
+    position: relative;
+    bottom: 105px;
+}
