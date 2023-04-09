@@ -1,0 +1,57 @@
+.hero-section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #F7D633;
+}
+
+.contain-hero {
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+    justify-content: space-between;
+    background-image: url(imgs/sun.png);
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+}
+
+.text-hero {
+    width: 50%;
+    background-image: url(imgs/image-four.png);
+}
+
+.text-hero .text {
+    min-height: 381px;
+    width: 549px;
+    margin: 156px 0px 0px 162px;
+}
+
+.text-hero .text p {
+    margin: 0px 0px 30px 0px;
+    font-family: 'Montserrat';
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 73px;
+    color: #2E190F;
+}
+
+.text-hero .text .button {
+    min-height: 59px;
+    width: 285px;
+    border-radius: 10px;
+    background: #E12843;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: all .4s;
+}
+
+.text-hero .text .button:hover {
+    background: #912233;
+}
